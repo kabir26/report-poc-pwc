@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-418244-report-poc": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Report POC",
+				"icon": "document-outline",
+				"description": "Report for POC",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_418244_report_poc"
+}

@@ -1,0 +1,106 @@
+@import '@servicenow/sass-kit/host';
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid #d6d5d6;
+    font-size: 12px;
+}
+
+table tr td:nth-child(1)
+{
+    // background-color: #f2f1f2;
+}
+
+.report{
+    background-color: #f7f5f7;
+}
+
+.header{
+    padding:0px;
+    margin:0px;
+    background-color: #f7f5f7;
+}
+.header-logo{
+    height: 60px;
+    position: absolute;
+    left:0xp;
+}
+.header-text{
+    padding-left: 120px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-button{
+    background-color: #ff8c2b;
+    color: #fff;
+    border: none;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    padding:0px 40px;
+}
+
+.condition{
+    margin: 10px 0px;
+    position: relative;
+    background-color: #f7f5f7;
+}
+
+.condition-col{
+    float:left;
+    width:calc(100%/6);
+    background-color: #f7f5f7;
+}
+
+.condition-row{
+    clear:both;
+}
+
+.condition-field-title{
+    font-size: 11px;
+}
+
+.condition-field-select{
+    width: 96%;
+}
+
+.condition-field-input{
+    width: 96%;
+    text-align: right;
+}
+
+.risk-instance-title{
+    clear:left;
+    font-size: 15px;
+    padding:10px 0px;
+}
+
+.rea-table{
+    background-color: white;
+}
+.rea-table thead{
+   background-color: #f03a25;
+   color:white;
+}
+
+.rea-table thead tr th{
+    font-size: 14px;
+    padding:6px 0px;
+}
+
+.rea-table caption{
+    padding: 30px 0px 6px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.key-highlight{
+    background-color: #f2f1f2;
+}
