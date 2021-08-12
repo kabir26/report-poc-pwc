@@ -174,7 +174,7 @@ const view = (state, { updateState, dispatch }) => {
 											item.row.map((r) => {
 												return (
 													<td>
-														{r.length > 0 ? (
+														{r.length > 0 && r[rs] != undefined ? (
 															r[rs]['risk_event_type.risk_event_type_level_3']
 														) : (
 															''
@@ -196,6 +196,7 @@ const view = (state, { updateState, dispatch }) => {
 			</div>
 
 		</div>
+	
 	);
 };
 
